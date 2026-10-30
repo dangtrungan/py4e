@@ -10,4 +10,4 @@ def computepay(hours, rate):
         pay += (hours - 40) * rate * 0.5
     return pay
 
-print("Pay:", computepay(hours, rate))
+print("Pay", computepay(hours, rate))
